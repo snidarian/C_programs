@@ -14,7 +14,7 @@ int main () {
 
     while ((c = getchar()) != EOF) {
         if (c != '\n') {
-            putchar(c);
+            //putchar(c);
             printf("\nASCII value of %c = ", c);
             printf("%d\n", c);
     }
